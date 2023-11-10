@@ -1,0 +1,353 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+svg {
+  width: 100;
+  height: 100%;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  padding: 1rem 3rem;
+}
+.logo {
+  overflow: hidden;
+  margin-right: 53%;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+li {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  color: hsl(273, 4%, 51%);
+  padding: 1rem;
+  text-transform: uppercase;
+}
+li:hover {
+  color: hsl(270, 9%, 17%);
+  cursor: pointer;
+  font-weight: 700;
+}
+.navigations {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cta {
+  border: 0.3rem solid hsl(273, 4%, 51%);
+  padding: 0.5rem;
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  color: hsl(273, 4%, 51%);
+  text-transform: uppercase;
+}
+.cta:hover {
+  border: 0.3rem solid hsl(270, 9%, 17%);
+  background-color: hsl(270, 9%, 17%);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+.hero-page {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(270, 9%, 17%);
+  width: 100%;
+  padding: 2rem 3rem;
+}
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.rule {
+  width: 30%;
+  margin-bottom: 2%;
+}
+.hero-heading {
+  font-family: "DM Serif Display", sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 2%;
+}
+.hero-text {
+  font-family: Karla;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 2%;
+  padding-right: 7rem;
+}
+.hero-cta {
+  border: 0.3rem solid white;
+  width: 20%;
+  padding: 0.5rem;
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+}
+.hero-cta:hover {
+  color: hsl(270, 9%, 17%);
+  font-weight: 700;
+  background-color: white;
+  cursor: pointer;
+}
+.hero-image-container {
+  position: relative;
+  width: 50%;
+  padding: 1rem;
+}
+.hero-image {
+  width: 60%;
+  position: absolute;
+  z-index: 2;
+  top: 2rem;
+  left: 10rem;
+}
+.hero-svg {
+  position: absolute;
+  z-index: 3;
+  top: -2rem;
+  right: -2rem;
+  height: 20rem;
+}
+.second-copy {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 15rem 3rem 1rem 3rem;
+  margin-bottom: 2%;
+}
+.second-rule {
+  width: 13%;
+  margin-bottom: 2%;
+}
+.second-heading {
+  font-family: "DM Serif Display", sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+  color: hsl(270, 9%, 17%);
+  margin-bottom: 10%;
+}
+.different {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.snappy {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin: 0 1%;
+}
+.snappy-icon {
+  border-radius: 10rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.snappy-header {
+  font-family: "DM Serif Display", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: hsl(270, 9%, 17%);
+}
+.snappy-text {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  color: hsl(273, 4%, 51%);
+}
+.find-main {
+  width: 100%;
+  padding: 1rem 3rem;
+}
+.find-bg {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-color: hsl(270, 9%, 17%);
+  width: 100%;
+  padding: 4rem 6rem;
+  margin: 4rem 0;
+}
+.find-top {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.find-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+  padding-right: 20%;
+  justify-content: flex-start;
+  font-family: "DM Serif Display", sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.find-second-half {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+}
+.find-cta {
+  border: 0.3rem solid white;
+  padding: 0.5rem;
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+}
+.find-cta:hover {
+  background-color: white;
+  color: hsl(270, 9%, 17%);
+  cursor: pointer;
+  font-weight: 700;
+}
+.find-svg {
+  position: absolute;
+  top: 0;
+  right: -2rem;
+  z-index: 0;
+  overflow: hidden;
+  height: 100%;
+}
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: hsl(0, 0%, 98%);
+  padding: 1rem 3rem;
+}
+.footer-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer-logo {
+  overflow: hidden;
+  margin-right: 73.5%;
+}
+.footer-socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fa-square-facebook {
+  font-size: 1.5rem;
+  color: hsl(273, 4%, 51%);
+  margin: 0 1rem;
+}
+.fa-square-facebook:hover {
+  color: hsl(270, 9%, 17%);
+  cursor: pointer;
+}
+.fa-twitter {
+  font-size: 1.5rem;
+  color: hsl(273, 4%, 51%);
+  margin: 0 1rem;
+}
+.fa-twitter:hover {
+  color: hsl(270, 9%, 17%);
+  cursor: pointer;
+}
+.fa-pinterest {
+  font-size: 1.5rem;
+  color: red;
+  margin: 0 1rem;
+}
+.fa-pinterest {
+  color: hsl(270, 9%, 17%);
+  cursor: pointer;
+}
+.fa-instagram {
+  font-size: 1.5rem;
+  color: hsl(273, 4%, 51%);
+  margin: 0 1rem;
+}
+.fa-instagram:hover {
+  color: hsl(270, 9%, 17%);
+  cursor: pointer;
+}
+.details-main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 5;
+  width: 100%;
+}
+.details-rule {
+  width: 100%;
+  margin: 1rem 0 4rem 0;
+}
+.details-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.details-list-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10%;
+}
+.details-list-start {
+  font-family: "Karla", sans-serif;
+  color: hsl(273, 4%, 51%);
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.details-list-text {
+  font-family: "Karla", sans-serif;
+  color: hsl(270, 9%, 17%);
+  text-transform: uppercase;
+  margin: 3% 0;
+  font-weight: 400;
+}
+.details-list-text:hover {
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.attribution {
+  padding: 3rem;
+  font-family: "Karla", sans-serif;
+  color: hsl(270, 9%, 17%);
+  font-weight: 400;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+.attribution > a:hover {
+  text-decoration: underline;
+  font-weight: 700;
+}
