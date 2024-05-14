@@ -435,7 +435,8 @@ footer {
     position: relative;
     background-color: hsl(270, 9%, 17%);
     width: 100%;
-    padding: 8rem 1rem;
+    padding: 8rem 0rem;
+    align-items: center;
   }
   .intro-text {
     display: flex;
