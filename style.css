@@ -418,6 +418,12 @@ footer {
   .navigations{
     justify-content: flex-end;
   }
+  .logo {
+    width: 70%;
+  }
+  .navigations {
+    width: 30%;
+  }
   .burger-container {
     width: 5%;
     display: flex;
@@ -553,7 +559,7 @@ footer {
     position: relative;
     background-color: hsl(270, 9%, 17%);
     width: 100%;
-    padding: 4rem 6rem;
+    padding: 2rem 1rem;
     margin: 4rem 0;
   }
   .find-top {
@@ -626,6 +632,7 @@ footer {
   .details-list-container {
     display: flex;
     flex-direction: column;
+    margin-right: 0;
   }
   .details-list-start {
     font-family: "Karla", sans-serif;
@@ -653,6 +660,6 @@ footer {
     font-size: 3.5rem;
   }
   .find-bg {
-    padding: 4rem 2rem;
+    padding: 2rem 0.5rem;
   }
 }
