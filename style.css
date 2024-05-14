@@ -435,7 +435,7 @@ footer {
     position: relative;
     background-color: hsl(270, 9%, 17%);
     width: 100%;
-    padding: 8rem 2rem;
+    padding: 8rem 1rem;
   }
   .intro-text {
     display: flex;
@@ -496,7 +496,7 @@ footer {
 
 
   .second-copy {
-    padding: 3rem 5rem 1rem 3rem;
+    padding: 5rem 3rem 1rem 3rem;
   }
   .second-rule {
     width: 20%;
